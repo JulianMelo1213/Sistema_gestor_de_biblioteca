@@ -1,0 +1,87 @@
+@model IEnumerable<Sistema_gestor_de_biblioteca.Models.Libro>
+
+@{
+    ViewData["Title"] = "Buscar Libros";
+}
+
+<h1>Buscar Libros</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Agregar Libro</a>
+</p>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<form asp-controller="Libros" asp-action="Search" method="get">
+    <input type="text" name="searchString" placeholder="Buscar por título, autor o género" />
+    <input type="submit" value="Buscar" />
+</form>
+
+<form asp-controller="Libros" asp-action="Index" method="get">
+    <div class="form-group">
+        <label for="filtro">Filtrar por disponibilidad:</label>
+        <select name="filtro" class="form-control" onchange="this.form.submit()">
+            <option value="">Todos</option>
+            @{
+                var filtro = ViewBag.Filtro as string;
+                <option value="disponibles" selected="@(filtro == "disponibles")">Disponibles</option>
+                <option value="no-disponibles" selected="@(filtro == "no-disponibles")">No disponibles</option>
+            }
+        </select>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Genero)
+            </th>
+            <th>Acción</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Autor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genero)
+            </td>
+            <td>
+                <form asp-controller="Libros" asp-action="Reservar" method="post" style="display:inline;">
+                    <input type="hidden" name="id" value="@item.Id" />
+                    <select name="usuarioId" class="form-control" asp-items="ViewBag.Usuarios">
+                        <option value="">Seleccione un usuario</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary">Reservar</button>
+                </form>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger" style="display:inline;">Eliminar</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

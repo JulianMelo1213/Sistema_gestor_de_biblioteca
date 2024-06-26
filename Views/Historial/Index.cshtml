@@ -1,0 +1,45 @@
+@model IEnumerable<Sistema_gestor_de_biblioteca.Models.Historial>
+
+@{
+    ViewData["Title"] = "Historial de Préstamos";
+}
+
+<h1>Historial de Préstamos</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Libro.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Accion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().FechaAccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Usuario.Nombre)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Libro.Titulo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Accion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaAccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Usuario.Nombre)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

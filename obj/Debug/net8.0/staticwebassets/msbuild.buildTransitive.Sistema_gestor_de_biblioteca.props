@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Sistema_gestor_de_biblioteca.props" />
+</Project>

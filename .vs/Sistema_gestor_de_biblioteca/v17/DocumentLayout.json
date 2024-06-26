@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|c:\\users\\gusta\\source\\repos\\sistema_gestor_de_biblioteca\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|c:\\users\\gusta\\source\\repos\\sistema_gestor_de_biblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|c:\\users\\gusta\\source\\repos\\sistema_gestor_de_biblioteca\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|solutionrelative:controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|c:\\users\\gusta\\source\\repos\\sistema_gestor_de_biblioteca\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|c:\\users\\gusta\\source\\repos\\sistema_gestor_de_biblioteca\\views\\historial\\usuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|solutionrelative:views\\historial\\usuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|c:\\users\\gusta\\source\\repos\\sistema_gestor_de_biblioteca\\views\\historial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|solutionrelative:views\\historial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|c:\\users\\gusta\\source\\repos\\sistema_gestor_de_biblioteca\\controllers\\historialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|solutionrelative:controllers\\historialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|c:\\users\\gusta\\source\\repos\\sistema_gestor_de_biblioteca\\data\\bibliotecacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|solutionrelative:data\\bibliotecacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|c:\\users\\gusta\\source\\repos\\sistema_gestor_de_biblioteca\\views\\prestamos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|solutionrelative:views\\prestamos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|c:\\users\\gusta\\source\\repos\\sistema_gestor_de_biblioteca\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88522DC0-61ED-469F-A667-BB1459395B73}|Sistema_gestor_de_biblioteca.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T15:52:13.366Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrestamosController.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Controllers\\PrestamosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrestamosController.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Controllers\\PrestamosController.cs",
+              "RelativeToolTip": "Controllers\\PrestamosController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T16:41:04.886Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Views\\Prestamos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Prestamos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Views\\Prestamos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Prestamos\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T17:10:37.042Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Data\\DbInitializer.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAgwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T16:01:30.828Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-26T00:53:11.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Views\\Historial\\Usuario.cshtml",
+              "RelativeDocumentMoniker": "Views\\Historial\\Usuario.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Views\\Historial\\Usuario.cshtml",
+              "RelativeToolTip": "Views\\Historial\\Usuario.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T21:03:37.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Views\\Historial\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Historial\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Views\\Historial\\Index.cshtml",
+              "RelativeToolTip": "Views\\Historial\\Index.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T21:02:53.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HistorialController.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Controllers\\HistorialController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HistorialController.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Controllers\\HistorialController.cs",
+              "RelativeToolTip": "Controllers\\HistorialController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:56:28.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAswDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T20:18:46.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BibliotecaContext.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Data\\BibliotecaContext.cs",
+              "RelativeDocumentMoniker": "Data\\BibliotecaContext.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\Sistema_gestor_de_biblioteca\\Data\\BibliotecaContext.cs",
+              "RelativeToolTip": "Data\\BibliotecaContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:12:32.243Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

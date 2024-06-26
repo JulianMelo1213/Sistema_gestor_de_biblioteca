@@ -1,0 +1,70 @@
+@model IEnumerable<Sistema_gestor_de_biblioteca.Models.Prestamo>
+
+@{
+    ViewData["Title"] = "Préstamos";
+}
+
+<h1>Préstamos</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Libro.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Usuario.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaPrestamo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaDevolucion)
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Libro.Titulo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Usuario.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaPrestamo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaDevolucion)
+                </td>
+                <td>
+                    <form asp-controller="Prestamos" asp-action="Renovar" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" class="btn btn-primary">Renovar</button>
+                    </form>
+                    <form asp-controller="Prestamos" asp-action="Devolver" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" class="btn btn-danger">Devolver</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
